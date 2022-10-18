@@ -1,0 +1,97 @@
+// .cabecalho-home{
+//     background: linear-gradient($cor-secundaria 1%, $cor-principal 70%, #f6bd60);
+//     background-size: cover;
+//     color: $cor-leitura;
+//     text-align: center;
+//     padding: 50px 0;
+//     width: 100%;
+//     padding-top: 150px;
+
+//     &__titulo{
+//         font-size: 50px;
+//         margin-bottom: 0;
+//         font-family: 'Poppins', sans-serif; 
+//         text-transform: uppercase; 
+//     }
+//     &__subtitulo{
+//         font-size: 28px;
+//     }
+    
+//     &__role{
+//         display: none;
+//     }
+  
+//     @media(min-width: $breakpoint-lg){
+//               height: 100vh;
+// }
+//     @media(min-width: $breakpoint-xl){
+//         background-image: url("../img/plano-de-fundo-oficial.png");
+// }
+// }
+.cabecalho-home{
+    color: $cor-leitura;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+    padding-top: 15px;
+
+    &__titulo{
+        font-size: 50px;
+        margin-bottom: 0;
+        font-family: 'Poppins', sans-serif; 
+        text-transform: uppercase; 
+        }
+        &__subtitulo{
+            font-size: 28px;
+        }
+        
+        &__role{
+            display: none;
+        }
+        
+        @media(min-width: $breakpoint-lg){
+                    height: 100vh;
+}
+}
+
+.plano-de-fundo{
+    width: 100%;
+    
+}
+.plano-de-fundo img{
+    width: 100%;
+    height: 100%;
+}
+      
+.home{
+    &__titulo{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    
+    
+    &__titulo::after{
+        content: '';
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: $cor-principal;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    
+    &__titulo--branco::after{
+        background-color: $cor-leitura;
+    }
+    
+    &__item__titulo{
+        color: $cor-principal;
+    }
+}
+
+
+html:
+<div class="plano-de-fundo">
+<img src="/img/plano-de-fundo-oficial.png" alt="Flores e oncas com escrito Cama de Gato">
+</div>

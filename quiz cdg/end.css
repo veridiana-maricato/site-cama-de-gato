@@ -1,0 +1,16 @@
+.fa-crown {
+    font-size: 4rem;
+    margin-left: 1rem;
+    color: rgb(218, 6, 112);
+    opacity: 70%;
+    margin-top: 2px;
+    margin-bottom: -222px;
+  }
+
+  #finalScore {
+    margin-bottom: 2px;
+  }
+
+  #end-text {
+    margin-top: -40px;
+  }

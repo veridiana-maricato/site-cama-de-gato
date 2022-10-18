@@ -1,0 +1,87 @@
+.logo{
+    margin-bottom: 20px;
+}
+// @media(max-width: $breakpoint-md){
+//     background-image: url("../img/rodape-novo.png");
+// }
+
+.rodape{
+    color: $cor-leitura;
+    height: 100%;
+    width: 100%;
+
+    &__linha-1{
+        background-color: $cor-terciaria;
+        background-image: url("../img/rodape-novo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;       
+        padding: 50px;
+        overflow: auto;       
+    }
+    
+    &__linha-2{
+        background-color: #000;
+        text-align: center;
+        font-size: 12px;
+        color: $cor-leitura;    
+        margin-top: -15px;
+        width: 100%;
+        margin-bottom: -90px;
+        margin-left: -15px;
+        margin-right: -5px;
+    }
+    
+    &__coluna{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    &__titulo{
+        border-bottom: 1px solid $cor-leitura;
+        padding: 0 10px 10px 10px;
+        font-size: 18px;
+    }
+    
+    &__lista-links{
+        padding: 0;
+        list-style: none;
+        &__item{
+            color: $cor-leitura;
+            text-decoration: none;
+            margin-bottom: 10px;
+            display: block;
+            &::before{
+                content: '>';
+                margin-right: 7px;
+                color: $cor-principal;
+                margin-left: 3px;
+            }
+        }        
+    }
+    @media(min-width: $breakpoint-lg){
+        &__coluna{
+            float: left;
+            width: 33.333%;
+            padding: 0 100px;
+            color: #ff64ae; 
+            margin-top: 10%;      
+        }
+        &__lista-links{
+            color: #ff64ae;
+            font-size: 18px;
+        }
+        
+        &__linha-1{
+            width: 100%;
+            height:500x;
+            background-image: url("../img/fundo-rodapé2.jpg");
+        background-repeat: no-repeat;
+       ;
+        }       
+    }
+ 
+}
+
+

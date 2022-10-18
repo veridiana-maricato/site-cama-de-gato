@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400&display=swap');
+ 
+   body {
+        color: white;
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(218, 6, 112) 0%, rgb(255, 217, 0) 100%);
+font-family: 'Sora', sans-serif;
+   }
+ 
+  @media screen and (max-width: 768px) {
+    .choice-container {
+      min-width: 40rem;
+    };
+  }
+ 
+#username {
+font-size: 15px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#saveScoreBtn {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.fa-crown {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  color: rgb(218, 6, 112);
+}

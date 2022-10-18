@@ -1,0 +1,51 @@
+.formulario{
+    background-color: $cor-terciaria;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 40px 15px 40px 15px;
+    box-shadow: 0 0 15px #b5838d;
+    margin: 80px 0;
+
+&__campo{
+    width: 100%;
+    border: 2px solid $cor-principal;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+
+&__grupo{
+    margin-bottom: 15px;
+}
+
+&__label{
+    color:$cor-leitura
+}
+
+&__botao{
+    border-radius: 200px;
+    border: 2px solid $cor-leitura;
+    background-color: $cor-principal;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    color: $cor-leitura;
+}
+@media(min-width: $breakpoint-lg){
+    &__grupo{
+        float: left;
+        width: 100%;
+}
+&__grupo--coluna-esquerda{
+    width: 50%;
+    padding-right: 15px;
+}
+&__grupo--coluna-direita{
+    width: 50%;
+    padding-left: 15px;
+}
+
+}
+}

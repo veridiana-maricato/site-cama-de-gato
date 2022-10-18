@@ -1,0 +1,34 @@
+.lista-trabalhos{
+    list-style: none;
+    padding: 0;
+}
+
+.lista-trabalhos__item{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 50px;
+}
+
+.lista-trabalhos__item a{
+    text-decoration: none;
+}
+
+.lista-trabalhos__img{
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+.lista-trabalhos__img:hover{
+background-image: url(../img/moradoras-zuadas/MÁ.jpg);
+z-index: 1;
+}
+
+.lista-trabalhos__titulo{
+    color: #000;
+    font-size: 18px;
+    margin-left: 15px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+

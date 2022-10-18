@@ -1,0 +1,176 @@
+.cabecalho-home{
+    background: linear-gradient($cor-secundaria 1%, $cor-principal 70%, #f6bd60);
+    background-size: cover;
+    color: $cor-leitura;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+    padding-top: 140px;
+
+    &__titulo{
+        font-size: 50px;
+        margin-bottom: 0;
+        font-family: 'Poppins', sans-serif; 
+        text-transform: uppercase; 
+        @media(max-width: $breakpoint-md){
+            font-size: 35px;
+            padding-top: 100px;
+        }
+        @media(max-width: $breakpoint-lg){
+            margin-top: 150px;
+            margin-bottom: 25px;
+        }       
+    }
+    &__subtitulo{
+        font-size: 28px;
+        @media(max-width: $breakpoint-md){
+            font-size: 20px;
+        }
+        @media(max-width: $breakpoint-lg){
+            margin-top: 10px;
+            margin-bottom: 100px;
+        }
+    }
+    
+    &__role{
+        display: none;
+        transition: all 300ms ease-out;
+    }
+  
+    @media(min-width: $breakpoint-lg){
+              height: 80vh;
+
+              &__titulo{
+                font-size: 55px;
+                margin-top: 88px;
+                margin-bottom: 0;
+                font-family: 'Poppins', sans-serif; 
+                text-transform: uppercase; 
+            }
+            &__subtitulo{
+                font-size: 28px;
+            }
+
+              &__role{
+                display: block;
+                position: absolute;
+                background: url("../img/Gato-vinho-ruim.png") no-repeat center center;
+                color: $cor-leitura;
+                bottom: 10px;
+                height: 140px;
+                width: 180px;
+                text-decoration: none;
+                font-size: 11px;
+                line-height: 240px;
+                text-align: center;
+                text-transform: uppercase; 
+                align-items: center;  
+            
+            }
+}
+    @media(min-width: $breakpoint-xl){
+        background-image: url("../img/plano-de-fundo-oficial.png");
+        margin: 0 auto;
+        width: 100%;
+        height: 150vh;
+
+        &__role{
+            display: block;
+            position: absolute;
+            background: url("../img/gato-vinho-preto.png") no-repeat center;
+            color: $cor-terciaria;
+           bottom: -605px;        
+            height: 140px;
+            width: 180px;
+            text-decoration: none;
+            font-size: 11px;
+            line-height: 240px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &__titulo{
+            margin-top: 350px;
+            font-size: 54px;
+            color: $cor-principal;
+        }
+        &__subtitulo{
+            font-size: 26px;
+            margin-top: 15px;
+        }
+        
+}
+}
+      
+.home{
+    
+    &__titulo{        
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    
+    
+    &__titulo::after{
+        content: '';
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: $cor-principal;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    
+    &__titulo--branco::after{
+        background-color: $cor-leitura;
+    }
+    
+    &__item__titulo{
+        color: $cor-principal;
+    }
+}
+
+#informacoes-rep{
+    margin-top: 90px;
+    padding: 30px;
+    }
+
+.title-center{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+}
+.subtitle-center{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1px;
+    margin-bottom: 40px;
+}
+
+.img-todas{
+    width: 100%;
+    background: $cor-principal;
+    height: 450px;
+    margin: 0;   
+    padding: -15px;
+    display: block;
+}
+
+.img-todas p{
+    padding: 70px;
+    line-height: 30px;
+    color: $cor-leitura;
+}
+
+
+#img-todas{
+    float: right;
+    padding: 8px;
+    width: auto;
+    display: block;
+    height: 450px;
+    margin-left: 50px;
+ 
+}
