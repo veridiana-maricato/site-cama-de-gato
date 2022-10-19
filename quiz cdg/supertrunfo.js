@@ -988,7 +988,7 @@ var cartaXupaCu = {
   }
   
 function goHome() {
-  window.location = '/home.html'; 
+  window.location = "/extras.html"; 
 }
 
   console.log(cartas[48]);

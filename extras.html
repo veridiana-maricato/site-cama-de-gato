@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html-extras" lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extras!</title>
     <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/normalize.css">
-    <link rel="stylesheet" href="/CSS/style-pagina.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="style-jogo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <title>Arena de jogos</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -20,27 +22,48 @@
             <nav class="menu-principal menu-principal--fechado">
                 <button class="menu-principal__btn menu-principal__btn--fechar">Abrir/fechar menu</button>
                 <ul class="menu-principal__lista">
-                    <li><a class="menu-principal__item" href="/index.html">Página inicial</a></li>
-                    <li><a class="menu-principal__item" href="/sobre.html">Sobre a república</a></li>
-                    <li><a class="menu-principal__item" href="/moradoras.html">Moradoras e ex-moradoras</a></li>
-                    <li><a class="menu-principal__item" href="/universidades.html">USP e Ufscar</a></li>
-                    <li><a class="menu-principal__item" href="/more.html">More com a gente</a></li>
-                    <li><a class="menu-principal__item menu-principal__item--atual" href="/extras.html" class="extras">Extras</a></li>
-                </ul>
-            </nav>
-        </div><!-- fim container -->
-    </header>
-    <main>
-        <div class="jogos">            
-            <a class="btn-jogos" href="/quiz cdg/home.html">Jogos</a>
-        </div>        
+                <li><a class="menu-principal__item" href="index.html">Soroco me tira daqui</a></li>
+                <li><a class="menu-principal__item" href="/moradoras.html">Quem sao voces mesmo?</a></li>
+                <li><a class="menu-principal__item" href="/sobre.html">Que que ces fazer afinal</a></li>
+                <li><a class="menu-principal__item" href="/universidades.html">Mas ces estudam?</a></li>
+                <li><a class="menu-principal__item" href="/more.html">Oloco quero morar ai tbm</a></li>
+            </ul>
+        </nav>
+    </div><!-- fim container -->
+</header>
+    <main>      
+        <header class="header-extras">
+            <div class="background">
+                <img id="barto" src="/img/barto-janela.png" alt="">
+                <img id="koda" src="/img/koda-louco.png" alt="">
+                    <div class="container-extras">
+                    <h1 class="title">ARENA DE JOGOS <br> CAMA DE GATO</h1>
+                    <h2 class="subtitle">Bem-vinda à sua derrota!</h2>
+                    <h3 class="under-subtitle">Porque eu vou ganhar de você</h3>
+                </div>
+            </div>            
+        </header>
+        <div class="gato-sticky">
+            <img id="gato" src="/img/gato-enroscou.png" alt="">
+        </div>
+        <section>           
+            <h1 id="title-jogos">Qual jogo voce quer jogar, queridinha?</h1>              
+            <div class="container-flex">  
+                 <a href="/quiz cdg/game.html" class="btn" id="btnTrivia">CdG Trivia</a>
+                 <a href="/quiz cdg/supertrunfo.html" class="btn" id="btnSupertrunfo">Supertrunfo CdG</a>
+                 <a href="/quiz cdg/highscores.html" id="highscore-btn" class="btn">The best<i class="fas fa-crown"></i></a>
+            </div>
+            <div class="gatito">
+                <img id="gatito" src="/img/gatito.png" alt="">
+            </div>
+        </section>
     </main>
     <footer class="rodape">
         <div class="rodape__linha-1">
             <div class="container">
                 <div class="rodape__coluna">
                     <div class="logo-rodape">
-                        <a href="index.html">
+                        <a href="extras.html">
                         <img src="/img/logo--branco.png" alt="Você caiu, volte ao topo!">
                         </a>                        
                     </div>
